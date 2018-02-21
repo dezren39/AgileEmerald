@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    color: blue;
+    font-size: 36px;
+    background-color: white;
+}
+
+h3 {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: -20px;
+}
+
+h4 {
+    position: relative;
+    text-align: right;
+    right: 28px;
+    top: 3px;
+    font-size: 15px;
+    color: white;
+}
+
+#title {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}
+
+#gameDiv {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}
+
+#leaderboard {
+    position: absolute;
+    border-radius: 25px;
+    background: black;
+    padding: 20px; 
+    width: 200px;
+    height: 500px;
+    left: 5%;
+    bottom: 100px;
+}
+
+#controlsDiv {
+    position: absolute;
+    border-radius: 25px;
+    background: black;
+    padding: 20px; 
+    width: 200px;
+    height: 500px;
+    left: 79%;
+    bottom: 100px;
+}
+
+#controlsDiv > p {
+    text-align: center;
+    color: white;
+}
+
+
+body {
+    background-image: url("BlueprintBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+#container {
+    margin:auto;
+    width:auto;
+    height:auto;
+}
+
