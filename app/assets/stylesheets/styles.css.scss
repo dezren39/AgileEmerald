@@ -15,10 +15,8 @@ h3 {
 h4 {
     position: relative;
     text-align: right;
-    right: 28px;
-    top: 3px;
-    font-size: 15px;
-    color: white;
+    left: 188px;
+    top: 5px;
 }
 
 #title {
@@ -33,15 +31,15 @@ h4 {
     margin: auto;
 }
 
-#leaderboard {
+#leaderBoard {
     position: absolute;
     border-radius: 25px;
     background: black;
     padding: 20px; 
     width: 200px;
-    height: 500px;
-    left: 5%;
-    bottom: 100px;
+    height: 300px;
+    left: 80%;
+    bottom: 295px;
 }
 
 #controlsDiv {
@@ -50,16 +48,11 @@ h4 {
     background: black;
     padding: 20px; 
     width: 200px;
-    height: 500px;
-    left: 79%;
-    bottom: 100px;
+    height: 150px;
+    left: 80%;
+    bottom: 85px;
+    content:url(controls.png);
 }
-
-#controlsDiv > p {
-    text-align: center;
-    color: white;
-}
-
 
 body {
     background-image: url("BlueprintBackground.jpg");
@@ -70,7 +63,7 @@ body {
 
 #container {
     margin:auto;
-    width:auto;
+    width:70%;
     height:auto;
 }
 
