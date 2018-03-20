@@ -1,0 +1,10 @@
+<% @scores.each do |score| %>
+  <tr>
+  
+   
+    <td><%= score.email.split('@')[0] %></td>
+    <td><%= score.score  %></td>
+    
+
+  </tr>
+<% end %>

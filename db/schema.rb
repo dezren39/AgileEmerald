@@ -11,14 +11,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180221203647) do
+ActiveRecord::Schema.define(version: 20180309032609) do
+
+  create_table "scores", force: :cascade do |t|
+    t.string   "email"
+    t.integer  "score"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "provider"
     t.string   "uid"
+    t.string   "first_name"
+    t.string   "last_name"
     t.string   "name"
+    t.string   "email"
+    t.string   "image"
+    t.string   "token"
     t.string   "oauth_token"
+    t.string   "refresh_token"
     t.datetime "oauth_expires_at"
+    t.string   "user_score"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
   end
